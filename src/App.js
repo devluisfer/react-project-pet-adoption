@@ -8,7 +8,7 @@ import Details from "./views/Details/Details";
 // import { Children } from "react";
 
 // const basename = process.env.NODE_ENV === 'production' ? "/react-project-pet-adoption" : "";
-// const basename = process.env.PUBLIC_URL;
+const basename = process.env.PUBLIC_URL;
 const routes = [
   {
     path: "/",
@@ -22,7 +22,7 @@ const routes = [
   }
 
 ];
-const router = createHashRouter(routes);
+const router = createBrowserRouter(routes, {basename});
 
 function App() {
   return (
