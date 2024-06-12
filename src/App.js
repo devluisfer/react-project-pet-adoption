@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, createHashRouter } from "react-router-dom";
 
 
 
@@ -8,7 +8,7 @@ import Details from "./views/Details/Details";
 // import { Children } from "react";
 
 // const basename = process.env.NODE_ENV === 'production' ? "/react-project-pet-adoption" : "";
-const basename = process.env.PUBLIC_URL;
+// const basename = process.env.PUBLIC_URL;
 const routes = [
   {
     path: "/",
@@ -22,7 +22,7 @@ const routes = [
   }
 
 ];
-const router = createBrowserRouter(routes, {basename});
+const router = createHashRouter(routes);
 
 function App() {
   return (

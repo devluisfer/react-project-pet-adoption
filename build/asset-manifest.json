@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-project-pet-adoption/static/css/main.4adc838f.css",
-    "main.js": "/react-project-pet-adoption/static/js/main.62d4304a.js",
+    "main.js": "/react-project-pet-adoption/static/js/main.bf17907c.js",
     "static/js/453.62c95ae0.chunk.js": "/react-project-pet-adoption/static/js/453.62c95ae0.chunk.js",
     "index.html": "/react-project-pet-adoption/index.html",
     "main.4adc838f.css.map": "/react-project-pet-adoption/static/css/main.4adc838f.css.map",
-    "main.62d4304a.js.map": "/react-project-pet-adoption/static/js/main.62d4304a.js.map",
+    "main.bf17907c.js.map": "/react-project-pet-adoption/static/js/main.bf17907c.js.map",
     "453.62c95ae0.chunk.js.map": "/react-project-pet-adoption/static/js/453.62c95ae0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4adc838f.css",
-    "static/js/main.62d4304a.js"
+    "static/js/main.bf17907c.js"
   ]
 }
