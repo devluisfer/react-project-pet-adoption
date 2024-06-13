@@ -1,4 +1,7 @@
-
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Logo from '../Logo/Logo';
+import SVGLogo from '../svg/SvgLogo';
 
 const Footer = () => {
     return (
@@ -64,14 +67,15 @@ const Footer = () => {
                     </ul>
 
                     <ul className="w-[300px]">
-                        <li className="p-[5px]">
-                            <a href="#">
-                                <img
+                        <li className="p-[5px] w-[50px]">
+                            <Link to="/">
+                                {/* <img
                                     src="home-logo-pet.png"
                                     alt="logo"
                                     className="w-[50px] sm:w-[100px]"
-                                />
-                            </a>
+                                /> */}
+                                <SVGLogo width={100} />
+                            </Link>
                         </li>
                     </ul>
                 </div>

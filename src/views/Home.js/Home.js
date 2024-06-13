@@ -13,12 +13,13 @@ function Home() {
   return (
     <>
       <Header />
-      <MainSlider autoplay={true} autoplayInterval={5000} slidesToShow={2}/>
+
       {/* <SecondSlider autoplay={false}/> */}
-      <main>
+      <main className="w-full pt-[200px] pb-[100px]">
+      <MainSlider autoplay={true} autoplayInterval={5000} slidesToShow={2}/>
         <div className="flex justify-center">
         {pets.map((pet) => (
-          <PetCard key={pet.id} {...pet} />
+          <PetCard key={pet.id} {...pet} isLink={true} />
         ))}
         </div>
 

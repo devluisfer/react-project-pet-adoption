@@ -1,6 +1,9 @@
 import * as React from "react";
-const SVGLogo = (props) => (
-  <svg viewBox="0 0 160 160" id="" {...props} width={140}>
+
+
+const SVGLogo = ({width=140, props}) => (
+
+  <svg viewBox="0 0 160 160" id="" {...props} width={width}>
     <g id="root" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
       <rect
         id="background.accent"

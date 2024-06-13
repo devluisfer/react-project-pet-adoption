@@ -3,22 +3,32 @@ import { Link } from "react-router-dom";
 
 
 
-const PetCard = (props) => {
+const PetCard = ({ id, name, type, race, gender, age, size, direction, description, images, status, others, isLink }) => {
 
-    const { id, name, type, race, gender, age, size, direction, description, images, status, others } = props;
+    // const { id, name, type, race, gender, age, size, direction, description, images, status, others } = props;
     const pet = pets.find((pet) => pet.id === id);
-
-    return (
+    const cardContent = (
         <>
-            <Link to={`/details/${id}`}>
-                <img
-                    src={images[0]}
-                    alt={name}
-                    className="w-[150px] h-[300px] object-cover"
-                />
-                <span>{name}</span>
-            </Link>
+          <img
+            src={images[0]}
+            alt={name}
+            className="w-[150px] h-[300px] object-cover"
+          />
+          <div>{name}</div>
         </>
+      );
+
+    return (<>
+        {isLink ? (
+          <Link to={`/details/${id}`}>
+            {cardContent}
+          </Link>
+        ) : (
+          <div className="w-[150px]">
+            {cardContent}
+          </div>
+        )}
+      </>
     )
 };
 

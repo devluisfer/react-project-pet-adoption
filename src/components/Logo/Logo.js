@@ -8,7 +8,7 @@ const Logo = () => {
             <div className="no-underline">
               <Link to="/">
               {/* <img alt="logo" src="home-logo-pet-v2.png" className="w-[100px] sm:w-[200px]"/> */}
-                <SVGLogo />
+                <SVGLogo width={140}/>
               </Link>
             </div>
         </>
