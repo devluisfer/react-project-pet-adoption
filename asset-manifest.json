@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/react-project-pet-adoption/static/css/main.4adc838f.css",
-    "main.js": "/react-project-pet-adoption/static/js/main.4c238b1b.js",
+    "main.css": "/react-project-pet-adoption/static/css/main.afc97e71.css",
+    "main.js": "/react-project-pet-adoption/static/js/main.827697d4.js",
     "static/js/453.62c95ae0.chunk.js": "/react-project-pet-adoption/static/js/453.62c95ae0.chunk.js",
+    "static/media/social-icons.png": "/react-project-pet-adoption/static/media/social-icons.5dc9c37d5f1174371e96.png",
     "index.html": "/react-project-pet-adoption/index.html",
-    "main.4adc838f.css.map": "/react-project-pet-adoption/static/css/main.4adc838f.css.map",
-    "main.4c238b1b.js.map": "/react-project-pet-adoption/static/js/main.4c238b1b.js.map",
+    "main.afc97e71.css.map": "/react-project-pet-adoption/static/css/main.afc97e71.css.map",
+    "main.827697d4.js.map": "/react-project-pet-adoption/static/js/main.827697d4.js.map",
     "453.62c95ae0.chunk.js.map": "/react-project-pet-adoption/static/js/453.62c95ae0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4adc838f.css",
-    "static/js/main.4c238b1b.js"
+    "static/css/main.afc97e71.css",
+    "static/js/main.827697d4.js"
   ]
 }
