@@ -26,7 +26,7 @@ const dog001 = new Pets (
     "East",
     "I am a good boy",
     ["https://i.pinimg.com/564x/14/42/c7/1442c7ecf3e59f32d69983c60ea5662a.jpg","https://i.pinimg.com/564x/9a/6b/39/9a6b398e99616ed6bb4c3aab27d5d356.jpg"],
-    "Adopted",
+    "Waiting",
     []
 )
 
@@ -46,11 +46,26 @@ const dog002 = new Pets (
     []
 )
 
+const dog003 = new Pets (
+    "d003",
+    "Kira",
+    "Dog",
+    "Poodle",
+    "Female",
+    1,
+    "Small",
+    "West",
+    "I am a good girl",
+    ["https://i.pinimg.com/564x/e7/a7/db/e7a7db029aaf88bb401042d10b6a2411.jpg","https://i.pinimg.com/564x/e7/a7/db/e7a7db029aaf88bb401042d10b6a2411.jpg"],
+    "Waiting",
+    []
+)
+
 const cat001 = new Pets (
     "c001",
     "Michael",
-    "Dog",
-    "Siamés",
+    "Cat",
+    "Siamese",
     "Male",
     1,
     "Small",
@@ -64,8 +79,8 @@ const cat001 = new Pets (
 const cat002 = new Pets (
     "c002",
     "Nina",
-    "Dog",
-    "Siamés",
+    "Cat",
+    "Persian",
     "Female",
     2,
     "Small",
@@ -76,11 +91,28 @@ const cat002 = new Pets (
     []
 )
 
+const cat003 = new Pets (
+    "c003",
+    "Alisa",
+    "Cat",
+    "Sphinx",
+    "Female",
+    2,
+    "Small",
+    "West",
+    "I am funny",
+    ["https://i.pinimg.com/564x/aa/42/a7/aa42a7ba3f48c58cbfc2a01f13e43291.jpg","https://i.pinimg.com/564x/aa/42/a7/aa42a7ba3f48c58cbfc2a01f13e43291.jpg"],
+    "Waiting",
+    []
+)
+
 const pets = [
     dog001,
     dog002,
+    dog003,
     cat001,
-    cat002
+    cat002,
+    cat003
 ]
 
 export default pets

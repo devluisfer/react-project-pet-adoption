@@ -10,15 +10,17 @@ import PetCard from "../../components/PetCard/PetCard";
 
 
 function Home() {
+
+  const petsWaiting = pets.filter((pet) => pet.status === "Waiting");
   return (
     <>
       <Header />
 
       {/* <SecondSlider autoplay={false}/> */}
-      <main className="w-full pt-[200px] pb-[100px]">
+      <main className="w-full pt-[200px] pb-[100px] font-['helvetica']">
       <MainSlider autoplay={true} autoplayInterval={5000} slidesToShow={2}/>
-        <div className="flex justify-center">
-        {pets.map((pet) => (
+        <div className="flex justify-center flex-wrap gap-4">
+        {petsWaiting?.map((pet) => (
           <PetCard key={pet.id} {...pet} isLink={true} />
         ))}
         </div>

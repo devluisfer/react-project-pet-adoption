@@ -4,7 +4,7 @@ const PostFooter = () => {
     return (
         <>
             <div className="w-full p-[20px] text-sm text-center no-underline">Copyright © 
-                2024 devlfer. All rights reserved.
+                2024 devlfer. For educational purposes. All rights reserved.
             </div>
         </>
     )
