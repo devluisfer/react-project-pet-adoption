@@ -14,7 +14,15 @@ const Details = () => {
             <main className="w-full pt-[200px] pb-[100px]">
                 <div className="flex justify-center">
                     {pet ? (
-                        <PetCard {...pet} isLink={false} />
+                        // <PetCard {...pet} isLink={false} />
+                        <div>
+                            <div>
+                                <div>
+                                <img src={pet.images[0]} alt={pet.name}/>
+                                </div>
+                            </div>
+                            <div></div>
+                        </div>
                     ):""}
                 </div>
 

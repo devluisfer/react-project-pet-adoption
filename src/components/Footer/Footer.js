@@ -6,11 +6,11 @@ import SVGLogo from "../svg/SvgLogo";
 const Footer = () => {
   return (
     <>
-      <footer className="flex justify-center text-center">
+      <footer className="font-['helvetica'] flex justify-center text-center">
         <div className="flex justify-center p-[20px] w-[1080px]">
           <ul className="w-[300px]">
             <li className="p-[5px] font-bold h-[40px] flex items-center justify-center">
-              <Link className="cursor-default">About</Link>
+              <div className="cursor-default">About</div>
             </li>
             <li className="p-[5px] h-[40px] flex items-center justify-center">
               <Link to="#">Who we are</Link>
@@ -24,7 +24,7 @@ const Footer = () => {
           </ul>
           <ul className="w-[300px]">
             <li className="p-[5px] font-bold h-[40px] flex items-center justify-center">
-              <Link className="cursor-default">How can I help</Link>
+              <div className="cursor-default">How can I help</div>
             </li>
             <li className="p-[5px] h-[40px] flex items-center justify-center">
               <Link to="#">Adopt</Link>
@@ -38,7 +38,7 @@ const Footer = () => {
           </ul>
           <ul className="w-[300px]">
             <li className="p-[5px] font-bold h-[40px] flex items-center justify-center">
-              <Link className="cursor-default">Others</Link>
+              <div className="cursor-default">Others</div>
             </li>
             <li className="p-[5px] h-[40px] flex items-center justify-center">
               <Link to="#">Actitivity</Link>
@@ -52,7 +52,7 @@ const Footer = () => {
           </ul>
           <ul className="w-[300px]">
             <li className="p-[5px] font-bold  h-[40px] flex items-center justify-center">
-              <Link className="cursor-default">Social networks</Link>
+              <div className="cursor-default">Social networks</div>
             </li>
             <li className="p-[5px] h-[40px] flex items-center justify-center">
               <Link
